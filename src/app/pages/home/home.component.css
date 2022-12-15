@@ -1,0 +1,53 @@
+@keyframes colors {
+   0% {
+    background-position: 0% 50%;
+   }
+
+   50% {
+    background-position: 100% 50%;
+   }
+
+   100%{
+    background-position: 0% 50%;
+   }
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.banner {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100vw;
+    background:linear-gradient(45deg, #343434,#055E68, #62A388, #B9D2D2);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+.section-1{
+    padding: 150PX;
+    align-items: center;
+}
+
+.section-1 h2{
+    text-align: center;
+    color: white;
+    font-family:"Roboto-Regular" ;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    font-family: "NerkoOne-Regular";
+    font-size: 3rem;
+    color: white;
+    
+    padding: 1rem 2rem;
+}

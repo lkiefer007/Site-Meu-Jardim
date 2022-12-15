@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar .container-fluid{
+    background-color: #0B4619;
+    padding: 10px;
+    margin: 0px;
+}
+
+ .nav-link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-family:"TitilliumWeb-Regular" ;
+    color: white;
+}
+.nav-link:hover{
+    color: yellowgreen;
+}
+
+.navbar-brand{
+    font-size: 1.9rem;
+    width: 150px;
+    font-family:"NerkoOne-Regular" ;
+    color: white;
+    margin-right: 0;
+}
+
+img  {
+   position:sticky;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-brand:hover{
+    color: yellowgreen;
+}
+
+button {
+    border: #116530;
+    background-color: #116530;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family:"TitilliumWeb-SemiBold" ;;
+    color: white;
+}
+
+button:hover {
+    background-size: cover;
+    background-color:#116530;
+    color: yellowgreen;
+}

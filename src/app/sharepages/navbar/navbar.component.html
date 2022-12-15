@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" routerLink="Meu Jardim">Meu Jardim</a>
+      <img class="logo" src="../../../assets/img/logo.meuJardim.png">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink = "menu" routerLinkActive="active-link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink = "sobre" routerLinkActive="active-link">Sobre</a>
+          </li>
+       
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Login
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="login">Já tenho cadastro</a></li>
+              <li><a class="dropdown-item" href="Login">Cadastro</a></li>
+             
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="carrinho" routerLinkActive="active-link"><i class="bi bi-cart4"></i></a>
+                
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Digite sua busca..." aria-label="Search">
+          <button type="button" class="btn btn-secondary">Procurar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
